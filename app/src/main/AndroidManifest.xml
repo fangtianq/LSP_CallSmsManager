@@ -16,9 +16,9 @@
 
     <!-- 模块桥接专用签名级权限：只有同签名应用才能拉起 provider 进程里的执行器 -->
     <permission
-        android:name="cn.ftqp.callsms.permission.BRIDGE"
+        android:name="io.github.fangtianq.callsms.permission.BRIDGE"
         android:protectionLevel="signature" />
-    <uses-permission android:name="cn.ftqp.callsms.permission.BRIDGE" />
+    <uses-permission android:name="io.github.fangtianq.callsms.permission.BRIDGE" />
 
     <!-- Android 11+ 包可见性：要能判断 LSPosed 管理器在不在、能不能直接拉起来 -->
     <queries>

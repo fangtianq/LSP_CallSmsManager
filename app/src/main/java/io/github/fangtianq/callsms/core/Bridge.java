@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.core;
+package io.github.fangtianq.callsms.core;
 
 /**
  * App 与「运行在 provider 进程里的模块代码」之间的通信协议。
@@ -11,7 +11,7 @@ package cn.ftqp.callsms.core;
 public final class Bridge {
 
     /** 有序广播 action，模块在 provider 进程里动态注册接收器 */
-    public static final String ACTION = "cn.ftqp.callsms.action.BRIDGE";
+    public static final String ACTION = "io.github.fangtianq.callsms.action.BRIDGE";
 
     public static final String EXTRA_OP = "op";
     public static final String EXTRA_URI = "uri";

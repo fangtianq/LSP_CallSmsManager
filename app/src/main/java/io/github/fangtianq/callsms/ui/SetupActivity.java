@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.ui;
+package io.github.fangtianq.callsms.ui;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -20,10 +20,10 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import cn.ftqp.callsms.core.Logs;
-import cn.ftqp.callsms.core.SelfCheck;
-import cn.ftqp.callsms.core.Shell;
-import cn.ftqp.callsms.core.Target;
+import io.github.fangtianq.callsms.core.Logs;
+import io.github.fangtianq.callsms.core.SelfCheck;
+import io.github.fangtianq.callsms.core.Shell;
+import io.github.fangtianq.callsms.core.Target;
 
 /**
  * 配置与诊断页：把「为什么不通 / 现在该点哪里」直接摆在用户面前，

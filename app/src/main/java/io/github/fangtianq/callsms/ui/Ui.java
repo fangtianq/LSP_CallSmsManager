@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.ui;
+package io.github.fangtianq.callsms.ui;
 
 import android.content.Context;
 import android.graphics.Color;

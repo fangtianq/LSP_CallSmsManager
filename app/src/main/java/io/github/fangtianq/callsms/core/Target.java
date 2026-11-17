@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.core;
+package io.github.fangtianq.callsms.core;
 
 /**
  * 两类目标数据：通话记录 / 短信记录。

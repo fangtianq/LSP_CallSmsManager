@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.ui;
+package io.github.fangtianq.callsms.ui;
 
 import androidx.appcompat.app.AlertDialog;
 import android.content.ContentValues;
@@ -28,12 +28,12 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 
-import cn.ftqp.callsms.core.Filter;
-import cn.ftqp.callsms.core.Logs;
-import cn.ftqp.callsms.core.OpResult;
-import cn.ftqp.callsms.core.Router;
-import cn.ftqp.callsms.core.Target;
-import cn.ftqp.callsms.core.Times;
+import io.github.fangtianq.callsms.core.Filter;
+import io.github.fangtianq.callsms.core.Logs;
+import io.github.fangtianq.callsms.core.OpResult;
+import io.github.fangtianq.callsms.core.Router;
+import io.github.fangtianq.callsms.core.Target;
+import io.github.fangtianq.callsms.core.Times;
 
 /** 单个目标（通话记录 / 短信）的列表 + 新增 + 按条件删除面板 */
 public final class RecordsPanel extends LinearLayout {

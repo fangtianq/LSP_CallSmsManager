@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.ui;
+package io.github.fangtianq.callsms.ui;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -21,12 +21,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.EnumMap;
 import java.util.Map;
 
-import cn.ftqp.callsms.core.DirectEngine;
-import cn.ftqp.callsms.core.Json;
-import cn.ftqp.callsms.core.Logs;
-import cn.ftqp.callsms.core.ModuleEngine;
-import cn.ftqp.callsms.core.Shell;
-import cn.ftqp.callsms.core.Target;
+import io.github.fangtianq.callsms.core.DirectEngine;
+import io.github.fangtianq.callsms.core.Json;
+import io.github.fangtianq.callsms.core.Logs;
+import io.github.fangtianq.callsms.core.ModuleEngine;
+import io.github.fangtianq.callsms.core.Shell;
+import io.github.fangtianq.callsms.core.Target;
 
 public final class MainActivity extends AppCompatActivity {
 

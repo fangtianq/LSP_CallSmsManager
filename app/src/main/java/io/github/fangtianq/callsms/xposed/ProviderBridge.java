@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.xposed;
+package io.github.fangtianq.callsms.xposed;
 
 import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
@@ -18,9 +18,9 @@ import org.json.JSONObject;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import cn.ftqp.callsms.core.Bridge;
-import cn.ftqp.callsms.core.Json;
-import cn.ftqp.callsms.core.Target;
+import io.github.fangtianq.callsms.core.Bridge;
+import io.github.fangtianq.callsms.core.Json;
+import io.github.fangtianq.callsms.core.Target;
 import io.github.libxposed.api.XposedModule;
 
 /**
@@ -98,7 +98,7 @@ public final class ProviderBridge {
             if (from == null) {
                 return true;
             }
-            return "cn.ftqp.callsms".equals(from);
+            return "io.github.fangtianq.callsms".equals(from);
         } catch (Throwable t) {
             return true;
         }

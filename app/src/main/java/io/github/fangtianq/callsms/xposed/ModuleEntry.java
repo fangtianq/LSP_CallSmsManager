@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.xposed;
+package io.github.fangtianq.callsms.xposed;
 
 import android.content.Context;
 import android.content.pm.ProviderInfo;
@@ -6,7 +6,7 @@ import android.util.Log;
 
 import java.lang.reflect.Method;
 
-import cn.ftqp.callsms.core.Target;
+import io.github.fangtianq.callsms.core.Target;
 import io.github.libxposed.api.XposedInterface;
 import io.github.libxposed.api.XposedModule;
 import io.github.libxposed.api.XposedModuleInterface;

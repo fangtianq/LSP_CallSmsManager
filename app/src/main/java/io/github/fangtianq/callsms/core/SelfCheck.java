@@ -1,4 +1,4 @@
-package cn.ftqp.callsms.core;
+package io.github.fangtianq.callsms.core;
 
 import android.content.Context;
 import android.content.pm.ApplicationInfo;

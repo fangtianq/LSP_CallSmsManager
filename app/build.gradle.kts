@@ -3,15 +3,15 @@ plugins {
 }
 
 android {
-    namespace = "cn.ftqp.callsms"
+    namespace = "io.github.fangtianq.callsms"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "cn.ftqp.callsms"
+        applicationId = "io.github.fangtianq.callsms"
         minSdk = 29
         targetSdk = 34
-        versionCode = 6
-        versionName = "1.1.4"
+        versionCode = 7
+        versionName = "1.1.5"
     }
 
     buildTypes {

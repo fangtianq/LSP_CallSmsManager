@@ -6,7 +6,7 @@
 }
 
 # 入口与桥接类（反射/框架按名加载）
--keep class cn.ftqp.callsms.xposed.** { *; }
+-keep class io.github.fangtianq.callsms.xposed.** { *; }
 
 # appcompat 常规
 -keep class androidx.appcompat.** { *; }

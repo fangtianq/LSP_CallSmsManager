@@ -1,9 +1,9 @@
-package cn.ftqp.callsms;
+package io.github.fangtianq.callsms;
 
 import android.app.Application;
 import android.content.Context;
 
-import cn.ftqp.callsms.core.Logs;
+import io.github.fangtianq.callsms.core.Logs;
 
 public class App extends Application {
 

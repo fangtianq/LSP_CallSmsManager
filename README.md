@@ -158,8 +158,8 @@ app/src/main/resources/META-INF/xposed/
   动态广播是唯一零侵入的「反向调用」方式。用**有序广播**拿回执（`setResultData`），失败/无接收者能立刻区分。
 - **限额**：单次最多回传 200 行、单字段 800 字（Binder 单次事务 1MB）。
 - **安全**：`uri` 白名单（只允许 `content://sms`、`content://call_log/calls`），API 34+ 校验
-  `getSentFromPackage()` 是否为 `cn.ftqp.callsms`；另在 Manifest 里声明了 signature 级
-  `cn.ftqp.callsms.permission.BRIDGE` 备用。
+  `getSentFromPackage()` 是否为 `io.github.fangtianq.callsms`；另在 Manifest 里声明了 signature 级
+  `io.github.fangtianq.callsms.permission.BRIDGE` 备用。
 - **不做的事**：不 hook `system_server`、不 hook SystemUI、不改资源、不碰 `framework`。
   scope 出问题最多影响短信/通话两个 provider 进程，LSPosed 里关掉模块即可恢复。
 
