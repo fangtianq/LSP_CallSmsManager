@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 取自头像照片的平均色调，做成自适应图标的背景 -->
+    <color name="ic_launcher_background">#848487</color>
+</resources>
